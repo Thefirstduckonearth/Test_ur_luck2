@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<body onload="repeatNumbersOneThroughTenAgain()">
+
+<h1> This is a number gambling game!</h1>
+<p> Each round,you will roll a number</p>
+<p2> Depending on which number, you get. One number will be randomize and deadly..</p2>
+<br>
+<p>
+
+
+
+</p>
+
+<span id="1-10"></span>
+
+
+<style>
+    p
+    {
+    	color: black;
+    }
+    
+    p:hover 
+    {
+        background-color: red;
+    }
+     
+    p2 
+	{
+    	color: black;
+    }
+    
+    p2:hover
+	{
+       background-color: pink;
+    }
+</style>
+</body>
+
+<script>
+
+function repeatNumbersOneThroughTenAgain() {
+	var numbersOneThroughTen = Math.random() *10;
+    document.getElementById("1-10").innerHTML = numbersOneThroughTen;
+   
+ }
+    </script>
+
+</html>
